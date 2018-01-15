@@ -1,0 +1,29 @@
+{
+  "name": "config-envify",
+  "version": "1.0.0",
+  "description": "Simple wrapper for env variables to overwrite configs",
+  "main": "config-envify/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dijam/config-envify.git"
+  },
+  "author": "Majid Sadeghi G.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dijam/config-envify/issues"
+  },
+  "homepage": "https://github.com/dijam/config-envify#readme",
+  "dependencies": {
+    "flat": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  }
+}
